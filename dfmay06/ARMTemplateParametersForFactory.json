@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "dfmay06"
+		},
+		"LS_BLOB_INPUT_DATASET_connectionString": {
+			"value": ""
+		},
+		"LS_BLOB_OUTPUT_connectionString": {
+			"value": ""
+		},
+		"LS_SQL_TABLE_OUTPUT_connectionString": {
+			"value": ""
+		}
+	}
+}
