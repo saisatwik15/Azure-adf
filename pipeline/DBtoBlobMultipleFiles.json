@@ -1,5 +1,5 @@
 {
-	"name": "DBtoBlob",
+	"name": "DBtoBlobMultipleFiles",
 	"properties": {
 		"activities": [
 			{
