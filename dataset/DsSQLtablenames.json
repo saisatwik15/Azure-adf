@@ -1,0 +1,13 @@
+{
+	"name": "DsSQLtablenames",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SQL_TABLE_OUTPUT",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
