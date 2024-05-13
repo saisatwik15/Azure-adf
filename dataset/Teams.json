@@ -1,0 +1,24 @@
+{
+	"name": "Teams",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_Teams",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Tokyoolympicdate"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

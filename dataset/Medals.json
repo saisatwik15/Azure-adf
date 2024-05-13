@@ -1,0 +1,24 @@
+{
+	"name": "Medals",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_Medals",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Tokyoolympicdate"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

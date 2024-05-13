@@ -1,0 +1,24 @@
+{
+	"name": "Athletes",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_Athletes_github",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Tokyoolympicdate"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
